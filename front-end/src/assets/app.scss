@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+
+body,
+html,
+.App,
+.vue-tempalte {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url("./background.jpg");
+  background-size: 100% 100%;
+}
+.vertical-center {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+}
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+}
+
+input,
+select {
+  outline: 0 !important;
+  border-width: 0 0 1px !important;
+  border-color: #212529 !important;
+  border-radius: 0px !important;
+}
+
+input:focus,
+select:focus {
+  border-color: black !important;
+  box-shadow: none !important;
+}
